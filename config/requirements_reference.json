@@ -1,0 +1,90 @@
+{
+  "source_file": "Requirements_Documentation_Point_Mass.pdf",
+  "reference_status": "User-supplied reference. Exact identity with the original model input is not established.",
+  "transcription_note": "Text transcription with whitespace joined; the source PDF, including Figure 1, remains authoritative.",
+  "project_context": "Design a system that can receive an electrical control signal and move the center of mass of the system from an origin point to a destination point and back on board the International Space Station (ISS).",
+  "conops": [
+    "Displace the center of mass of the system from its origin to a set destination.",
+    "Return that point mass back to its origin."
+  ],
+  "requirements": [
+    {
+      "requirement_id": "FR.1",
+      "source_id": "FR1",
+      "text": "Displace: The System shall be able to move a point mass from an origin point to a fixed destination point as seen in Figure 1. Note 1: The path shown in the figure is notional; the actual path is to be determined. Note 2: Assume that a link between the system output and the point mass will be designed separately (by someone else) and will match the needs of your design. Note 3: The origin point is (X, Y, Z) = (0 mm, 0 mm, 101.6 mm) or [0”, 0”, 4”]. Note 4: The destination point is (X, Y, Z) = (71.84 mm, 0 mm, -71.84 mm) or [2.82”, 0”, -2.82”].",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, FR1"
+    },
+    {
+      "requirement_id": "FR.2",
+      "source_id": "FR2",
+      "text": "Return: The System shall be able to move the point mass from the destination point back to the origin point.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, FR2"
+    },
+    {
+      "requirement_id": "PR.1",
+      "source_id": "PR1",
+      "text": "The system shall execute FR1 accurately with +/- 2.5mm [0.1”] accuracy in every Cartesian direction.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, PR1"
+    },
+    {
+      "requirement_id": "PR.2",
+      "source_id": "PR2",
+      "text": "The system shall execute FR2 accurately with +/- 2.5mm [0.1”] accuracy in every Cartesian direction.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, PR2"
+    },
+    {
+      "requirement_id": "PR.3",
+      "source_id": "PR3",
+      "text": "The System shall be able to execute FR1 in no more than 30 seconds.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, PR3"
+    },
+    {
+      "requirement_id": "PR.4",
+      "source_id": "PR4",
+      "text": "The System shall be able to execute FR1 in no less than 5 seconds.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, PR4"
+    },
+    {
+      "requirement_id": "PR.5",
+      "source_id": "PR5",
+      "text": "The System shall be able to execute FR2 in no more than 30 seconds.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, PR5"
+    },
+    {
+      "requirement_id": "PR.6",
+      "source_id": "PR6",
+      "text": "The System shall be able to execute FR2 in no less than 5 seconds.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, PR6"
+    },
+    {
+      "requirement_id": "PR.7",
+      "source_id": "PR7",
+      "text": "The system shall be able to move a point mass of 3.6 kg perpendicularly to normal gravity (9.81 m/s2).",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, PR7"
+    },
+    {
+      "requirement_id": "ER.1",
+      "source_id": "ER1",
+      "text": "The System shall operate in an atmosphere comparable to that of Earth. Assume 21 degrees centigrade [70 degrees Fahrenheit], with low humidity, and pressurized to 100 kPA [750 mm Hg, 14.5 psi].",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, ER1"
+    },
+    {
+      "requirement_id": "ER.2",
+      "source_id": "ER2",
+      "text": "The System shall not contribute any particulates (e.g. dust) to the ISS atmosphere.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, ER2"
+    },
+    {
+      "requirement_id": "ER.3",
+      "source_id": "ER3",
+      "text": "The System shall enclose all lubricated components to prevent lubricants from leaking into the atmosphere of the ISS.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, ER3"
+    },
+    {
+      "requirement_id": "RR.1",
+      "source_id": "RR1",
+      "text": "The System shall not use more than 1.5 Watt-hours to support all operations. Note: Assume a maximum of 1 minute of operations.",
+      "source_locator": "Requirements_Documentation_Point_Mass.pdf, p. 2, RR1"
+    }
+  ]
+}

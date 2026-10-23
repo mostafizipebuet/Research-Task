@@ -1,0 +1,44 @@
+[
+  {
+    "criterion_id": "A2",
+    "name": "Necessary",
+    "definition": "The requirement statement defines capability, characteristic, constraint, or quality factor needed or required to satisfy a lifecycle concept, need, source, or higher-level requirement.",
+    "source": "STSELab_Research_Task.pdf, p. 1, Table 1 (requirement-specific definition)"
+  },
+  {
+    "criterion_id": "A3",
+    "name": "Appropriate",
+    "definition": "The specific intent and amount of detail of the need or requirement statement is appropriate to the level (the level of abstraction, organization, or system architecture) of the entity to which it refers.",
+    "source": "STSELab_Research_Task.pdf, p. 1, Table 1 (requirement-specific definition)"
+  },
+  {
+    "criterion_id": "A4",
+    "name": "Unambiguous",
+    "definition": "Need and requirement statements must be stated such that their intent is clear and can be interpreted in only one way by all intended audiences.",
+    "source": "STSELab_Research_Task.pdf, p. 1, Table 1 (requirement-specific definition)"
+  },
+  {
+    "criterion_id": "A5",
+    "name": "Complete",
+    "definition": "The requirement statement sufficiently describes the necessary capability, characteristic, constraint, conditions, or quality factor to meet the need, source, or higher-level requirement from which it was transformed.",
+    "source": "STSELab_Research_Task.pdf, p. 1, Table 1 (requirement-specific definition)"
+  },
+  {
+    "criterion_id": "A6",
+    "name": "Singular",
+    "definition": "The need or requirement statement should state a single capability, characteristic, constraint, or quality factor.",
+    "source": "STSELab_Research_Task.pdf, p. 1, Table 1 (requirement-specific definition)"
+  },
+  {
+    "criterion_id": "A9",
+    "name": "Correct",
+    "definition": "The requirement statement must be an accurate representation of the need, source, or higher-level requirement from which it was transformed.",
+    "source": "STSELab_Research_Task.pdf, p. 1, Table 1 (requirement-specific definition)"
+  },
+  {
+    "criterion_id": "A10",
+    "name": "Conforming",
+    "definition": "Statements and expressions of individual needs and requirements should conform to an approved standard pattern and style guide or standard for writing and managing needs and requirements.",
+    "source": "STSELab_Research_Task.pdf, p. 1, Table 1 (requirement-specific definition)"
+  }
+]

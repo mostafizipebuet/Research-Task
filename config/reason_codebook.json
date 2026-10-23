@@ -1,0 +1,515 @@
+[
+  {
+    "reason_id": "R01",
+    "label": "Missing stated provenance",
+    "definition": "The explanation says a value, bound, constraint, or necessity lacks a documented need, source, trace, or rationale.",
+    "inclusion": "Explicit lack of traceability, justification, or stated need.",
+    "exclusion": "Do not infer that a numerical value is wrong merely because its source is absent.",
+    "patterns": [
+      "not\\s+(?:clearly\\s+)?(?:traceable|linked|derived|referenced|justified|supported)",
+      "no\\s+(?:\\w+[ -]){0,6}(?:source|justification|rationale|need|analysis|standard)",
+      "(?:cannot|can not) be traced",
+      "no (?:stated |documented )?(?:life.cycle|stakeholder)",
+      "necessity (?:is |has )?(?:not |un)",
+      "unsupported (?:threshold|constraint|value)",
+      "lacks? (?:a )?(?:traceable |stated )?(?:source|justification)",
+      "unsubstantiated",
+      "no (?:traceable|stated|documented) (?:basis|origin)",
+      "not (?:traced|derivable|driven|called for)",
+      "not tied to any (?:stated |documented )?(?:need|ConOps|stakeholder)",
+      "need.{0,90}not established",
+      "not stated (?:or justified )?anywhere in the project context",
+      "does not (?:trace|correspond).{0,60}(?:need|ConOps|source)",
+      "lacks? traceability",
+      "without traceab",
+      "Nothing.{0,100}(?:need|minimum)",
+      "Neither.{0,130}(?:traceable|justified)",
+      "untraceable",
+      "unsupported by",
+      "no documented origin",
+      "unjustified constraint"
+    ],
+    "requirement_scope": [],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R02",
+    "label": "Prescribed design solution",
+    "definition": "The explanation criticizes imposing an implementation instead of describing the required outcome.",
+    "inclusion": "An enclosure or other implementation is called a design mandate or solution.",
+    "exclusion": "Simple absence of provenance is R01; level of abstraction is R03.",
+    "patterns": [
+      "(?:specific |prescribed |particular )?(?:design|implementation) (?:solution|mandate|decision|constraint|approach)",
+      "(?:prescribes|mandates|imposes).{0,70}(?:enclos|implementation|solution)",
+      "how.{0,20}(?:rather than|instead of).{0,20}what",
+      "adds a design",
+      "implementation (?:detail|choice)",
+      "solution.specific",
+      "enclosure solution",
+      "adds design content"
+    ],
+    "requirement_scope": [],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R03",
+    "label": "Abstraction or system boundary",
+    "definition": "The explanation says a detail belongs at another system level or outside the system of interest.",
+    "inclusion": "Component-level detail, external linkage, or wrong abstraction level.",
+    "exclusion": "Operating versus test-context uncertainty is R20.",
+    "patterns": [
+      "(?:level of abstraction|component.level|internal components|outside the system|external.element|different level|system.level requirement)",
+      "characteristic of the system of interest",
+      "individual components",
+      "system.of.interest level"
+    ],
+    "requirement_scope": [
+      "ER.3",
+      "FR.1"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R04",
+    "label": "Notes mixed into requirement",
+    "definition": "The explanation criticizes explanatory notes, assumptions, or scoping material appearing with the requirement.",
+    "inclusion": "Alleged non-requirement sentence, note placement, or assumption mixed into the body.",
+    "exclusion": "A source note is not automatically a genuine singularity violation; check the PDF.",
+    "patterns": [
+      "(?:assumption|explanatory|descriptive|non.requirement|non.normative|scoping).{0,65}(?:sentence|text|content|statement|body)",
+      "(?:belongs?|should be|rather than|instead of|placing|placed|separat).{0,45}(?:note|assumption)",
+      "(?:adds|appends).{0,45}(?:sentence|assumption)",
+      "(?:mix|embed|combin).{0,70}(?:assumption|commentary|note|scoping)",
+      "(?:note|assumption).{0,50}(?:requirement body|requirement statement)",
+      "additional assertions.{0,80}(?:notional|linkage)"
+    ],
+    "requirement_scope": [],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R05",
+    "label": "Multiple obligations",
+    "definition": "The explanation identifies two or more capabilities, characteristics, or constraints within one requirement.",
+    "inclusion": "Bundled environmental limits, mass plus orientation, or energy plus duration.",
+    "exclusion": "A capability with an explanatory note alone is R04.",
+    "patterns": [
+      "(?:combines|bundles|couples|multiple|two distinct|three distinct).{0,100}(?:constraint|characteristic|capabilit|temperature|humidity|energy|mass.handling)",
+      "(?:temperature|humidity|pressure).{0,80}(?:single statement|one statement)",
+      "(?:two|three|multiple) (?:separate|distinct|different)"
+    ],
+    "requirement_scope": [
+      "ER.1",
+      "PR.7",
+      "RR.1"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R06",
+    "label": "Indirect capability phrasing",
+    "definition": "The explanation criticizes the phrase shall be able to.",
+    "inclusion": "Directly cites shall be able to as discouraged or prohibited.",
+    "exclusion": "This is a style claim; the governing style guide is not provided.",
+    "patterns": [
+      "shall be able to"
+    ],
+    "requirement_scope": [],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R07",
+    "label": "Negative obligation wording",
+    "definition": "The explanation criticizes a negative statement such as shall not.",
+    "inclusion": "Explicit negative phrasing or shall not.",
+    "exclusion": "No more than/no less than bounds alone are R08.",
+    "patterns": [
+      "negative(?:ly)? (?:statement|phrased|wording|construction|requirement)",
+      "(?:phrased|written|stated) negatively",
+      "negative and",
+      "shall not"
+    ],
+    "requirement_scope": [],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R08",
+    "label": "Bound wording criticized",
+    "definition": "The explanation criticizes no more than, no less than, or not more than phrasing.",
+    "inclusion": "Explicit upper/lower-bound construction is criticized.",
+    "exclusion": "A numerical bound lacking a rationale is R01.",
+    "patterns": [
+      "no (?:more|less) than",
+      "not (?:use |consume )?more than"
+    ],
+    "requirement_scope": [],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R09",
+    "label": "Dependence on another requirement",
+    "definition": "The explanation says cross-references or implicit links make the requirement insufficiently self-contained.",
+    "inclusion": "Cross-reference, dependence on FR1/FR2, missing standalone meaning.",
+    "exclusion": "Reference frames are R18; referring to evidence in another source is R01.",
+    "patterns": [
+      "cross.reference",
+      "(?:relies|relying|depends|dependent|dependence).{0,70}(?:FR\\.?[12]|another requirement|reference|context)",
+      "(?:implicit|explicit|external) (?:link|reference)",
+      "(?:self.contained|stand.alone)",
+      "by reference to",
+      "instead of stating the capability directly"
+    ],
+    "requirement_scope": [],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R10",
+    "label": "Endpoint versus path accuracy",
+    "definition": "The explanation distinguishes accuracy at the endpoint from accuracy throughout the path.",
+    "inclusion": "Explicit end position versus trajectory/entire-motion scope.",
+    "exclusion": "Measurement datum or test setup alone is R23.",
+    "patterns": [
+      "(?:endpoint|end.point|final|destination|origin position).{0,150}(?:entire|path|throughout|during)",
+      "(?:path|trajectory).{0,100}(?:endpoint|end.point|final position)",
+      "(?:applies|measured|evaluated).{0,60}(?:destination point|origin endpoint)",
+      "(?:arrival|returned|origin|end position).{0,120}(?:path|trajectory|throughout)",
+      "accuracy.{0,100}(?:whole|entire).{0,30}(?:path|trajectory)"
+    ],
+    "requirement_scope": [
+      "PR.1",
+      "PR.2"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R11",
+    "label": "Unit or numerical equivalence",
+    "definition": "The explanation alleges inconsistent metric/imperial or other numerical conversions.",
+    "inclusion": "2.5 mm versus 0.1 inch, or another explicit conversion discrepancy.",
+    "exclusion": "Rounding acceptability is a separate judgment, not established by the code.",
+    "patterns": [
+      "(?:unit|conversion|metric|imperial|inch).{0,100}(?:inconsisten|conflict|not (?:exactly )?(?:match|equivalent)|different|mismatch)",
+      "(?:inconsisten|conflict|mismatch).{0,80}(?:unit|metric|imperial|inch)",
+      "2\\.54",
+      "not exactly equivalent",
+      "not precisely equivalent",
+      "not exact equivalents",
+      "equivalence is inexact",
+      "dual tolerance.{0,60}inconsistent",
+      "not exactly.{0,20}0\\.1"
+    ],
+    "requirement_scope": [],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R12",
+    "label": "Environmental bounds undefined",
+    "definition": "The explanation says qualitative environmental terms or missing tolerances leave the operating envelope unclear.",
+    "inclusion": "Earth-like, low humidity, temperature/pressure ranges or operating versus survival context.",
+    "exclusion": "Provenance of stated environmental values alone is R01.",
+    "patterns": [
+      "(?:low humidity|earth.like|approximately|comparable|humidity range|tolerance|tolerances|range).{0,130}(?:qualitative|not |no |lack|undefined|without|unspecified|not fully|not quantitatively)",
+      "(?:no|without|undefined|missing|not specified|not quantified).{0,80}(?:humidity|temperature|pressure|environmental|range|tolerance)",
+      "(?:qualitative descriptors|operating vs|operating versus|non.operating|survival conditions)"
+    ],
+    "requirement_scope": [
+      "ER.1"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R13",
+    "label": "Particulate limit or measurement unspecified",
+    "definition": "The explanation asks for particle size, quantity, concentration, threshold, or measurement conditions.",
+    "inclusion": "A missing definition or limit for particulates.",
+    "exclusion": "A missing source for a zero-particulate rule alone is R01.",
+    "patterns": [
+      "(?:no|without|lack|missing|undefined|not |unverifiab).{0,140}(?:threshold|particle.size|particulate size|quantity|concentration|measurement|limit)",
+      "(?:threshold|particle.size|quantity|measurement|limit|particle size).{0,100}(?:undefined|not |unverifiab|missing)",
+      "cannot be (?:interpreted|fully|verif)"
+    ],
+    "requirement_scope": [
+      "ER.2"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R14",
+    "label": "Leakage or containment undefined",
+    "definition": "The explanation says enclosure or leakage has no defined containment, sealing, or leak-rate criterion.",
+    "inclusion": "Undefined enclosure/leakage performance or verification conditions.",
+    "exclusion": "Mandating an enclosure as an implementation is R02.",
+    "patterns": [
+      "(?:no|not |without|lack|undefined).{0,90}(?:leak|containment|sealing|measurable criterion)",
+      "(?:enclose|leakage).{0,60}(?:not defined|not quantified)"
+    ],
+    "requirement_scope": [
+      "ER.3"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R15",
+    "label": "Trajectory or motion scope unspecified",
+    "definition": "The explanation questions the unspecified path, direction, distance, duration, or scope of the required movement.",
+    "inclusion": "Notional path treated as ambiguity; PR7 path/distance/duration omitted.",
+    "exclusion": "Accuracy endpoint/path is R10; gravity interpretation is R20.",
+    "patterns": [
+      "(?:notional|trajectory|allowed path|actual path).{0,100}(?:not |undefined|open|unspecified|undetermined|interpret|unclear)",
+      "(?:undefined|not (?:defined|specified|bounded)|leaves).{0,70}(?:path|trajectory)",
+      "(?:does not|nor|no |omits|missing).{0,90}(?:distance|duration|path|between which points)",
+      "(?:path|distance|duration).{0,90}(?:not specified|not stated|not defined|undefined)",
+      "lacks the operational context",
+      "does not state over which motion"
+    ],
+    "requirement_scope": [
+      "FR.1",
+      "PR.7"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R16",
+    "label": "Payload or interface details omitted",
+    "definition": "The explanation asks for mass, size, attachment, or interface attributes.",
+    "inclusion": "Point-mass characteristics or physical interface not defined.",
+    "exclusion": "Unsupported 3.6 kg provenance alone is R01.",
+    "patterns": [
+      "(?:not |no |omits|undefined|unspecified|missing).{0,90}(?:mass|size|attachment|interface)",
+      "(?:mass|size|attachment|interface).{0,70}(?:not |undefined|unspecified|missing)",
+      "mass, size"
+    ],
+    "requirement_scope": [
+      "FR.1",
+      "FR.2"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R17",
+    "label": "Initiating condition omitted",
+    "definition": "The explanation asks for an electrical signal, trigger, or initiating condition.",
+    "inclusion": "A missing trigger or control signal for movement.",
+    "exclusion": "Timed interval boundaries are R22.",
+    "patterns": [
+      "(?:trigger|initiating|electrical control signal|receipt of).{0,100}(?:omitted|not |missing|unspecified)",
+      "(?:omits|does not|no |missing|without).{0,130}(?:initiating|trigger|electrical control signal)",
+      "operational context/initiating"
+    ],
+    "requirement_scope": [
+      "FR.1",
+      "FR.2"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R18",
+    "label": "Coordinates or reference frame omitted",
+    "definition": "The explanation asks for coordinates, coordinate frame, origin/destination definition, or a reference frame.",
+    "inclusion": "Spatial references alleged absent or insufficient.",
+    "exclusion": "Accuracy measurement datum belongs to R23.",
+    "patterns": [
+      "(?:no |not |omits|without|missing).{0,120}(?:coordinates|reference frame|coordinate frame|origin point|destination point)",
+      "(?:coordinates|reference frame|coordinate frame).{0,80}(?:not |missing|unspecified|undefined)",
+      "without restating"
+    ],
+    "requirement_scope": [
+      "FR.1",
+      "FR.2"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R19",
+    "label": "Energy-budget scope unclear",
+    "definition": "The explanation questions what all operations covers or the duration/cycle basis of the energy limit.",
+    "inclusion": "Single traverse/full cycle/standby, one-minute basis, or operational condition.",
+    "exclusion": "Provenance of 1.5 Wh alone is R01; explicit arithmetic conflict is R24.",
+    "patterns": [
+      "all operations.{0,70}(?:undefined|not |unclear)",
+      "(?:undefined|not (?:defined|delimited|specified)).{0,60}all operations",
+      "(?:single traverse|single transfer|full cycle|standby|continuous use)",
+      "(?:relationship|one.minute|one minute).{0,110}(?:unclear|not established|not defined|assumption rather|condition)"
+    ],
+    "requirement_scope": [
+      "RR.1"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R20",
+    "label": "Gravity orientation or test context unclear",
+    "definition": "The explanation questions the meaning of perpendicular gravity or whether it describes operation, test, or mounting.",
+    "inclusion": "Unclear load direction or operating versus ground-test context.",
+    "exclusion": "An explicit conflict with ISS context is separately R21.",
+    "patterns": [
+      "(?:test|verification) condition",
+      "(?:perpendicular|gravity vector|orientation|mounting).{0,110}(?:ambiguous|unclear|not (?:defined|specified)|whether)",
+      "(?:ambiguous|unclear|whether).{0,140}(?:perpendicular|orientation|component|mounting|motion)",
+      "ground.test",
+      "open to (?:multiple )?interpret",
+      "not (?:clearly )?(?:defined|tied)",
+      "does not clearly define"
+    ],
+    "requirement_scope": [
+      "PR.7"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R21",
+    "label": "Gravity versus mission-context tension",
+    "definition": "The explanation says normal Earth gravity conflicts with or is not derived from the stated ISS operating context.",
+    "inclusion": "Explicit Earth-gravity/ISS mismatch or traceability concern.",
+    "exclusion": "Ground-test interpretation remains a possible alternative; do not automatically declare a physical defect.",
+    "patterns": [
+      "microgravity",
+      "(?:Earth|normal).{0,30}gravity.{0,100}(?:ISS|orbit|operational context)",
+      "ISS.{0,100}(?:Earth|normal).{0,30}gravity"
+    ],
+    "requirement_scope": [
+      "PR.7"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R22",
+    "label": "Timed interval boundaries missing",
+    "definition": "The explanation says start/stop events for a timing constraint are undefined.",
+    "inclusion": "No timing start/end/stop or interval boundary definition.",
+    "exclusion": "The value of the timing limit lacking a source is R01.",
+    "patterns": [
+      "(?:start|stop|interval boundar|events that bound|timed return|measured interval)"
+    ],
+    "requirement_scope": [
+      "PR.3",
+      "PR.4",
+      "PR.5",
+      "PR.6"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R23",
+    "label": "Accuracy verification conditions missing",
+    "definition": "The explanation asks for a datum, load, reference point, measurement method, or test condition for accuracy.",
+    "inclusion": "Missing verification setup or measurement conditions.",
+    "exclusion": "Pure endpoint-versus-path alternative is R10; allow both when both arguments appear.",
+    "patterns": [
+      "(?:measurement|measured|verified|evaluated|accuracy).{0,80}(?:datum|reference|under load|conditions|method|frame)",
+      "(?:datum|reference point|under load|conditions).{0,80}(?:not |missing|unspecified|measurement|accuracy|verified)",
+      "measurement reference",
+      "where/when",
+      "under what load",
+      "reference frame explicitly stated"
+    ],
+    "requirement_scope": [
+      "PR.1",
+      "PR.2"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R24",
+    "label": "Duration consistency questioned",
+    "definition": "The explanation alleges a conflict or lack of reconciliation between one minute and the movement time limits.",
+    "inclusion": "Explicit tension between energy-budget duration and the other motion timing statements.",
+    "exclusion": "A general undefined energy scope is R19; arithmetic must be checked.",
+    "patterns": [
+      "(?:conflict|inconsisten|reconcil|contradict).{0,100}(?:30|thirty|minute|duration|time)",
+      "(?:one.minute|one minute|30.second).{0,100}(?:conflict|inconsisten|reconcil|contradict)"
+    ],
+    "requirement_scope": [
+      "RR.1"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R25",
+    "label": "Absolute prohibition unverifiable",
+    "definition": "The explanation questions the feasibility or verification of an absolute zero-particulate constraint.",
+    "inclusion": "Explicit impossible/unverifiable absolute/zero condition.",
+    "exclusion": "Missing a particle threshold alone is R13; zero limit lacking provenance is R01.",
+    "patterns": [
+      "(?:absolute|zero).{0,100}(?:unverifiab|impossible|cannot be verified|not verifiable)",
+      "(?:unverifiab|impossible).{0,100}(?:absolute|zero)"
+    ],
+    "requirement_scope": [
+      "ER.2"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R26",
+    "label": "Implied power constraint",
+    "definition": "The explanation infers a power level from the stated energy and duration.",
+    "inclusion": "An explicit calculation or claim of an unstated watt-level constraint.",
+    "exclusion": "Do not convert an energy budget into an instantaneous power cap without additional assumptions.",
+    "patterns": [
+      "90\\s*W",
+      "(?:implies|implied|unstated).{0,50}power"
+    ],
+    "requirement_scope": [
+      "RR.1"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R27",
+    "label": "Assumed component existence",
+    "definition": "The explanation questions whether lubricated components exist in the system.",
+    "inclusion": "Explicit allegation that a component is assumed without evidence.",
+    "exclusion": "Mandating an enclosure for a known component is R02.",
+    "patterns": [
+      "(?:no |not |assum).{0,100}(?:lubricat|components will exist|components exist)",
+      "no source establishes"
+    ],
+    "requirement_scope": [
+      "ER.3"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  },
+  {
+    "reason_id": "R28",
+    "label": "Claimed environment-value mismatch",
+    "definition": "The explanation claims stated environmental values do not match an external ISS value.",
+    "inclusion": "A claimed actual or nominal ISS pressure or value discrepancy.",
+    "exclusion": "A simple absence of an environmental source is R01. The external fact requires verification.",
+    "patterns": [
+      "101\\.3",
+      "actual ISS",
+      "do not exactly match the documented ISS"
+    ],
+    "requirement_scope": [
+      "ER.1"
+    ],
+    "status": "proposed",
+    "version": "1.0"
+  }
+]
