@@ -1,0 +1,16 @@
+{
+  "study_title": "Understanding LLM Explanations for Requirement Quality Violations",
+  "applicant": "Mostafizur Rahman Khan",
+  "expected_runs": 100,
+  "seed": 20261021,
+  "bootstrap_draws": 2000,
+  "confidence_level": 0.95,
+  "input_sha256": "98fa5215949ba69062d44fef2dff4713bca538d718afec2aabb4d3103544aaaa",
+  "model_name": "not supplied",
+  "prompt": "not supplied",
+  "temperature": "not supplied",
+  "random_seeds": "not supplied",
+  "independence": "Stated in the assignment; not independently established from workbook metadata.",
+  "coding_status": "Rule-based proposals; no human validation claimed.",
+  "reference_status": "Compare against user-supplied Point Mass PDF; exact original model input is not known."
+}

@@ -1,0 +1,93 @@
+| requirement_id | criterion_id | flagged_runs | unresolved_flag_explanations | flag_agreement | exact_reason_agreement_all | mean_jaccard_at_least_one_positive | mean_jaccard_both_positive | total_run_pairs | comparable_pairs | pairs_at_least_one_positive | pairs_both_positive | interpretation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| FR.1 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.1 | A3 | 4 | 0 | 0.9224242424242424 | 0.9218181818181819 | 0.011538461538461539 | 0.75 | 4950 | 4950 | 390 | 6 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.1 | A4 | 29 | 0 | 0.584040404040404 | 0.5181818181818182 | 0.08637592968221772 | 0.5244252873563218 | 4950 | 4950 | 2465 | 406 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.1 | A5 | 48 | 0 | 0.49575757575757573 | 0.3393939393939394 | 0.1793598233995585 | 0.5762411347517731 | 4950 | 4950 | 3624 | 1128 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.1 | A6 | 58 | 0 | 0.5078787878787879 | 0.42282828282828283 | 0.34425694953941466 | 0.8515829804396047 | 4950 | 4950 | 4089 | 1653 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.1 | A9 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.1 | A10 | 100 | 0 | 1.0 | 0.6862626262626262 | 0.85986531986532 | 0.85986531986532 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.2 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.2 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.2 | A4 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.2 | A5 | 52 | 0 | 0.49575757575757573 | 0.2814141414141414 | 0.20139979068550498 | 0.5805052790346908 | 4950 | 4950 | 3822 | 1326 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.2 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.2 | A9 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| FR.2 | A10 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.1 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.1 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.1 | A4 | 81 | 0 | 0.6890909090909091 | 0.28565656565656566 | 0.430564274255423 | 0.635082304526749 | 4950 | 4950 | 4779 | 3240 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.1 | A5 | 23 | 0 | 0.6422222222222222 | 0.6072727272727273 | 0.07015810276679842 | 0.5612648221343873 | 4950 | 4950 | 2024 | 253 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.1 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.1 | A9 | 100 | 0 | 1.0 | 0.9224242424242424 | 0.9612121212121212 | 0.9612121212121212 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.1 | A10 | 1 | 0 | 0.98 | 0.98 | 0.0 |  | 4950 | 4950 | 99 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.2 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.2 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.2 | A4 | 81 | 0 | 0.6890909090909091 | 0.20383838383838385 | 0.3455569505475344 | 0.5096965020576131 | 4950 | 4950 | 4779 | 3240 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.2 | A5 | 23 | 0 | 0.6422222222222222 | 0.6101010101010101 | 0.08300395256916997 | 0.6640316205533597 | 4950 | 4950 | 2024 | 253 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.2 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.2 | A9 | 100 | 0 | 1.0 | 0.9412121212121212 | 0.9706060606060606 | 0.9706060606060606 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.2 | A10 | 1 | 0 | 0.98 | 0.98 | 0.0 |  | 4950 | 4950 | 99 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.3 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.3 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.3 | A4 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.3 | A5 | 1 | 0 | 0.98 | 0.98 | 0.0 |  | 4950 | 4950 | 99 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.3 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.3 | A9 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.3 | A10 | 100 | 0 | 1.0 | 0.98 | 0.9933333333333333 | 0.9933333333333333 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.4 | A2 | 57 | 0 | 0.5048484848484849 | 0.5048484848484849 | 0.39436619718309857 | 1.0 | 4950 | 4950 | 4047 | 1596 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.4 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.4 | A4 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.4 | A5 | 1 | 0 | 0.98 | 0.98 | 0.0 |  | 4950 | 4950 | 99 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.4 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.4 | A9 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.4 | A10 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.5 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.5 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.5 | A4 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.5 | A5 | 1 | 0 | 0.98 | 0.98 | 0.0 |  | 4950 | 4950 | 99 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.5 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.5 | A9 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.5 | A10 | 100 | 0 | 1.0 | 0.98 | 0.9933333333333333 | 0.9933333333333333 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.6 | A2 | 57 | 1 | 0.5048484848484849 | 0.5036075036075036 | 0.3900709219858156 | 1.0 | 4950 | 4851 | 3948 | 1540 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.6 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.6 | A4 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.6 | A5 | 1 | 0 | 0.98 | 0.98 | 0.0 |  | 4950 | 4950 | 99 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.6 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.6 | A9 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.6 | A10 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.7 | A2 | 34 | 0 | 0.5466666666666666 | 0.4636363636363636 | 0.12477718360071301 | 0.6238859180035651 | 4950 | 4950 | 2805 | 561 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.7 | A3 | 12 | 0 | 0.7866666666666666 | 0.7795959595959596 | 0.04322638146167558 | 0.7348484848484849 | 4950 | 4950 | 1122 | 66 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.7 | A4 | 77 | 6 | 0.6422222222222222 | 0.2727064744909632 | 0.38736441638335756 | 0.6419181757209925 | 4950 | 4371 | 4118 | 2485 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.7 | A5 | 32 | 0 | 0.5604040404040403 | 0.49737373737373736 | 0.09955089820359281 | 0.5362903225806451 | 4950 | 4950 | 2672 | 496 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.7 | A6 | 3 | 0 | 0.9412121212121212 | 0.9412121212121212 | 0.01020408163265306 | 1.0 | 4950 | 4950 | 294 | 3 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.7 | A9 | 100 | 0 | 1.0 | 0.5385858585858586 | 0.768989898989899 | 0.768989898989899 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| PR.7 | A10 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.1 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.1 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.1 | A4 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.1 | A5 | 19 | 0 | 0.6890909090909091 | 0.6890909090909091 | 0.1 | 1.0 | 4950 | 4950 | 1710 | 171 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.1 | A6 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.1 | A9 | 80 | 1 | 0.6767676767676768 | 0.27994227994227994 | 0.4451119216191089 | 0.6733744455263444 | 4950 | 4851 | 4661 | 3081 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.1 | A10 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.2 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.2 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.2 | A4 | 100 | 0 | 1.0 | 0.9224242424242424 | 0.9612121212121212 | 0.9612121212121212 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.2 | A5 | 50 | 0 | 0.494949494949495 | 0.48505050505050507 | 0.32228187919463086 | 0.98 | 4950 | 4950 | 3725 | 1225 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.2 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.2 | A9 | 8 | 0 | 0.8513131313131314 | 0.8482828282828283 | 0.026832460732984294 | 0.7321428571428571 | 4950 | 4950 | 764 | 28 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.2 | A10 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.3 | A2 | 100 | 0 | 1.0 | 1.0 | 1.0 | 1.0 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.3 | A3 | 95 | 0 | 0.9040404040404041 | 0.8131313131313131 | 0.8582995951417004 | 0.9496080627099664 | 4950 | 4950 | 4940 | 4465 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.3 | A4 | 6 | 0 | 0.8860606060606061 | 0.8850505050505051 | 0.02158894645941278 | 0.8333333333333334 | 4950 | 4950 | 579 | 15 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.3 | A5 | 1 | 0 | 0.98 | 0.98 | 0.0 |  | 4950 | 4950 | 99 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.3 | A6 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.3 | A9 | 84 | 0 | 0.7284848484848485 | 0.2686868686868687 | 0.4958385093167701 | 0.6870051635111877 | 4950 | 4950 | 4830 | 3486 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| ER.3 | A10 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| RR.1 | A2 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| RR.1 | A3 | 0 | 0 | 1.0 | 1.0 |  |  | 4950 | 4950 | 0 | 0 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| RR.1 | A4 | 96 | 0 | 0.9224242424242424 | 0.47535353535353536 | 0.6880393743257821 | 0.7459795321637427 | 4950 | 4950 | 4944 | 4560 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| RR.1 | A5 | 2 | 0 | 0.9604040404040404 | 0.9604040404040404 | 0.005076142131979695 | 1.0 | 4950 | 4950 | 197 | 1 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| RR.1 | A6 | 11 | 0 | 0.8022222222222222 | 0.7965656565656566 | 0.039651837524177946 | 0.7454545454545455 | 4950 | 4950 | 1034 | 55 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| RR.1 | A9 | 100 | 0 | 1.0 | 0.6143434343434343 | 0.7971043771043771 | 0.7971043771043771 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |
+| RR.1 | A10 | 100 | 0 | 1.0 | 0.5048484848484849 | 0.7524242424242424 | 0.7524242424242424 | 4950 | 4950 | 4950 | 4950 | Descriptive pairwise similarities; run pairs are dependent; joint absences excluded from positive Jaccard. |

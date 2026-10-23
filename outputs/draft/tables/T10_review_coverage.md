@@ -1,0 +1,9 @@
+| criterion_id | n_flags | labels_reviewed | source_assessed | alignment_assessed | unresolved_labels | multiple_proposed_reasons |
+| --- | --- | --- | --- | --- | --- | --- |
+| A6 | 172 | 0 | 0 | 0 | 0 | 14 |
+| A10 | 902 | 0 | 0 | 0 | 0 | 546 |
+| A4 | 570 | 0 | 0 | 0 | 6 | 175 |
+| A9 | 972 | 0 | 0 | 0 | 1 | 235 |
+| A2 | 248 | 0 | 0 | 0 | 1 | 26 |
+| A5 | 254 | 0 | 0 | 0 | 0 | 104 |
+| A3 | 111 | 0 | 0 | 0 | 0 | 15 |

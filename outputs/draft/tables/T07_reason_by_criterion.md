@@ -1,0 +1,198 @@
+| criterion_id | reason_id | reason_label | flag_explanations_with_reason | total_flag_explanations | share_of_flags | opportunity_prevalence | opportunities |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| A2 | R01 | Missing stated provenance | 132 | 248 | 0.532258064516129 | 0.10153846153846154 | 1300 |
+| A2 | R02 | Prescribed design solution | 100 | 248 | 0.4032258064516129 | 0.07692307692307693 | 1300 |
+| A2 | R03 | Abstraction or system boundary | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R04 | Notes mixed into requirement | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R05 | Multiple obligations | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R06 | Indirect capability phrasing | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R07 | Negative obligation wording | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R08 | Bound wording criticized | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R09 | Dependence on another requirement | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R10 | Endpoint versus path accuracy | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R11 | Unit or numerical equivalence | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R12 | Environmental bounds undefined | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R13 | Particulate limit or measurement unspecified | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R14 | Leakage or containment undefined | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R15 | Trajectory or motion scope unspecified | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R16 | Payload or interface details omitted | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R17 | Initiating condition omitted | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R18 | Coordinates or reference frame omitted | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R19 | Energy-budget scope unclear | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R20 | Gravity orientation or test context unclear | 12 | 248 | 0.04838709677419355 | 0.009230769230769232 | 1300 |
+| A2 | R21 | Gravity versus mission-context tension | 34 | 248 | 0.13709677419354838 | 0.026153846153846153 | 1300 |
+| A2 | R22 | Timed interval boundaries missing | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R23 | Accuracy verification conditions missing | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R24 | Duration consistency questioned | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R25 | Absolute prohibition unverifiable | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R26 | Implied power constraint | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R27 | Assumed component existence | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A2 | R28 | Claimed environment-value mismatch | 0 | 248 | 0.0 | 0.0 | 1300 |
+| A3 | R01 | Missing stated provenance | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R02 | Prescribed design solution | 5 | 111 | 0.04504504504504504 | 0.0038461538461538464 | 1300 |
+| A3 | R03 | Abstraction or system boundary | 98 | 111 | 0.8828828828828829 | 0.07538461538461538 | 1300 |
+| A3 | R04 | Notes mixed into requirement | 4 | 111 | 0.036036036036036036 | 0.003076923076923077 | 1300 |
+| A3 | R05 | Multiple obligations | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R06 | Indirect capability phrasing | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R07 | Negative obligation wording | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R08 | Bound wording criticized | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R09 | Dependence on another requirement | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R10 | Endpoint versus path accuracy | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R11 | Unit or numerical equivalence | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R12 | Environmental bounds undefined | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R13 | Particulate limit or measurement unspecified | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R14 | Leakage or containment undefined | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R15 | Trajectory or motion scope unspecified | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R16 | Payload or interface details omitted | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R17 | Initiating condition omitted | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R18 | Coordinates or reference frame omitted | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R19 | Energy-budget scope unclear | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R20 | Gravity orientation or test context unclear | 12 | 111 | 0.10810810810810811 | 0.009230769230769232 | 1300 |
+| A3 | R21 | Gravity versus mission-context tension | 7 | 111 | 0.06306306306306306 | 0.005384615384615384 | 1300 |
+| A3 | R22 | Timed interval boundaries missing | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R23 | Accuracy verification conditions missing | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R24 | Duration consistency questioned | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R25 | Absolute prohibition unverifiable | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R26 | Implied power constraint | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R27 | Assumed component existence | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A3 | R28 | Claimed environment-value mismatch | 0 | 111 | 0.0 | 0.0 | 1300 |
+| A4 | R01 | Missing stated provenance | 1 | 570 | 0.0017543859649122807 | 0.0007692307692307692 | 1300 |
+| A4 | R02 | Prescribed design solution | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A4 | R03 | Abstraction or system boundary | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A4 | R04 | Notes mixed into requirement | 12 | 570 | 0.021052631578947368 | 0.009230769230769232 | 1300 |
+| A4 | R05 | Multiple obligations | 5 | 570 | 0.008771929824561403 | 0.0038461538461538464 | 1300 |
+| A4 | R06 | Indirect capability phrasing | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A4 | R07 | Negative obligation wording | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A4 | R08 | Bound wording criticized | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A4 | R09 | Dependence on another requirement | 10 | 570 | 0.017543859649122806 | 0.007692307692307693 | 1300 |
+| A4 | R10 | Endpoint versus path accuracy | 136 | 570 | 0.23859649122807017 | 0.10461538461538461 | 1300 |
+| A4 | R11 | Unit or numerical equivalence | 98 | 570 | 0.17192982456140352 | 0.07538461538461538 | 1300 |
+| A4 | R12 | Environmental bounds undefined | 100 | 570 | 0.17543859649122806 | 0.07692307692307693 | 1300 |
+| A4 | R13 | Particulate limit or measurement unspecified | 100 | 570 | 0.17543859649122806 | 0.07692307692307693 | 1300 |
+| A4 | R14 | Leakage or containment undefined | 6 | 570 | 0.010526315789473684 | 0.004615384615384616 | 1300 |
+| A4 | R15 | Trajectory or motion scope unspecified | 43 | 570 | 0.07543859649122807 | 0.03307692307692308 | 1300 |
+| A4 | R16 | Payload or interface details omitted | 10 | 570 | 0.017543859649122806 | 0.007692307692307693 | 1300 |
+| A4 | R17 | Initiating condition omitted | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A4 | R18 | Coordinates or reference frame omitted | 13 | 570 | 0.02280701754385965 | 0.01 | 1300 |
+| A4 | R19 | Energy-budget scope unclear | 96 | 570 | 0.16842105263157894 | 0.07384615384615385 | 1300 |
+| A4 | R20 | Gravity orientation or test context unclear | 68 | 570 | 0.11929824561403508 | 0.052307692307692305 | 1300 |
+| A4 | R21 | Gravity versus mission-context tension | 16 | 570 | 0.028070175438596492 | 0.012307692307692308 | 1300 |
+| A4 | R22 | Timed interval boundaries missing | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A4 | R23 | Accuracy verification conditions missing | 15 | 570 | 0.02631578947368421 | 0.011538461538461539 | 1300 |
+| A4 | R24 | Duration consistency questioned | 14 | 570 | 0.02456140350877193 | 0.010769230769230769 | 1300 |
+| A4 | R25 | Absolute prohibition unverifiable | 4 | 570 | 0.007017543859649123 | 0.003076923076923077 | 1300 |
+| A4 | R26 | Implied power constraint | 1 | 570 | 0.0017543859649122807 | 0.0007692307692307692 | 1300 |
+| A4 | R27 | Assumed component existence | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A4 | R28 | Claimed environment-value mismatch | 0 | 570 | 0.0 | 0.0 | 1300 |
+| A5 | R01 | Missing stated provenance | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R02 | Prescribed design solution | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R03 | Abstraction or system boundary | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R04 | Notes mixed into requirement | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R05 | Multiple obligations | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R06 | Indirect capability phrasing | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R07 | Negative obligation wording | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R08 | Bound wording criticized | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R09 | Dependence on another requirement | 38 | 254 | 0.14960629921259844 | 0.02923076923076923 | 1300 |
+| A5 | R10 | Endpoint versus path accuracy | 26 | 254 | 0.10236220472440945 | 0.02 | 1300 |
+| A5 | R11 | Unit or numerical equivalence | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R12 | Environmental bounds undefined | 19 | 254 | 0.07480314960629922 | 0.014615384615384615 | 1300 |
+| A5 | R13 | Particulate limit or measurement unspecified | 50 | 254 | 0.1968503937007874 | 0.038461538461538464 | 1300 |
+| A5 | R14 | Leakage or containment undefined | 1 | 254 | 0.003937007874015748 | 0.0007692307692307692 | 1300 |
+| A5 | R15 | Trajectory or motion scope unspecified | 24 | 254 | 0.09448818897637795 | 0.018461538461538463 | 1300 |
+| A5 | R16 | Payload or interface details omitted | 25 | 254 | 0.0984251968503937 | 0.019230769230769232 | 1300 |
+| A5 | R17 | Initiating condition omitted | 87 | 254 | 0.3425196850393701 | 0.06692307692307692 | 1300 |
+| A5 | R18 | Coordinates or reference frame omitted | 48 | 254 | 0.1889763779527559 | 0.036923076923076927 | 1300 |
+| A5 | R19 | Energy-budget scope unclear | 2 | 254 | 0.007874015748031496 | 0.0015384615384615385 | 1300 |
+| A5 | R20 | Gravity orientation or test context unclear | 14 | 254 | 0.05511811023622047 | 0.010769230769230769 | 1300 |
+| A5 | R21 | Gravity versus mission-context tension | 2 | 254 | 0.007874015748031496 | 0.0015384615384615385 | 1300 |
+| A5 | R22 | Timed interval boundaries missing | 4 | 254 | 0.015748031496062992 | 0.003076923076923077 | 1300 |
+| A5 | R23 | Accuracy verification conditions missing | 42 | 254 | 0.16535433070866143 | 0.03230769230769231 | 1300 |
+| A5 | R24 | Duration consistency questioned | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R25 | Absolute prohibition unverifiable | 1 | 254 | 0.003937007874015748 | 0.0007692307692307692 | 1300 |
+| A5 | R26 | Implied power constraint | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R27 | Assumed component existence | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A5 | R28 | Claimed environment-value mismatch | 0 | 254 | 0.0 | 0.0 | 1300 |
+| A6 | R01 | Missing stated provenance | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R02 | Prescribed design solution | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R03 | Abstraction or system boundary | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R04 | Notes mixed into requirement | 64 | 172 | 0.37209302325581395 | 0.04923076923076923 | 1300 |
+| A6 | R05 | Multiple obligations | 114 | 172 | 0.6627906976744186 | 0.0876923076923077 | 1300 |
+| A6 | R06 | Indirect capability phrasing | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R07 | Negative obligation wording | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R08 | Bound wording criticized | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R09 | Dependence on another requirement | 3 | 172 | 0.01744186046511628 | 0.002307692307692308 | 1300 |
+| A6 | R10 | Endpoint versus path accuracy | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R11 | Unit or numerical equivalence | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R12 | Environmental bounds undefined | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R13 | Particulate limit or measurement unspecified | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R14 | Leakage or containment undefined | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R15 | Trajectory or motion scope unspecified | 6 | 172 | 0.03488372093023256 | 0.004615384615384616 | 1300 |
+| A6 | R16 | Payload or interface details omitted | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R17 | Initiating condition omitted | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R18 | Coordinates or reference frame omitted | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R19 | Energy-budget scope unclear | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R20 | Gravity orientation or test context unclear | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R21 | Gravity versus mission-context tension | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R22 | Timed interval boundaries missing | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R23 | Accuracy verification conditions missing | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R24 | Duration consistency questioned | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R25 | Absolute prohibition unverifiable | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R26 | Implied power constraint | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R27 | Assumed component existence | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A6 | R28 | Claimed environment-value mismatch | 0 | 172 | 0.0 | 0.0 | 1300 |
+| A9 | R01 | Missing stated provenance | 942 | 972 | 0.9691358024691358 | 0.7246153846153847 | 1300 |
+| A9 | R02 | Prescribed design solution | 81 | 972 | 0.08333333333333333 | 0.06230769230769231 | 1300 |
+| A9 | R03 | Abstraction or system boundary | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R04 | Notes mixed into requirement | 25 | 972 | 0.0257201646090535 | 0.019230769230769232 | 1300 |
+| A9 | R05 | Multiple obligations | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R06 | Indirect capability phrasing | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R07 | Negative obligation wording | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R08 | Bound wording criticized | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R09 | Dependence on another requirement | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R10 | Endpoint versus path accuracy | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R11 | Unit or numerical equivalence | 7 | 972 | 0.00720164609053498 | 0.005384615384615384 | 1300 |
+| A9 | R12 | Environmental bounds undefined | 62 | 972 | 0.06378600823045268 | 0.047692307692307694 | 1300 |
+| A9 | R13 | Particulate limit or measurement unspecified | 3 | 972 | 0.0030864197530864196 | 0.002307692307692308 | 1300 |
+| A9 | R14 | Leakage or containment undefined | 6 | 972 | 0.006172839506172839 | 0.004615384615384616 | 1300 |
+| A9 | R15 | Trajectory or motion scope unspecified | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R16 | Payload or interface details omitted | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R17 | Initiating condition omitted | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R18 | Coordinates or reference frame omitted | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R19 | Energy-budget scope unclear | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R20 | Gravity orientation or test context unclear | 4 | 972 | 0.00411522633744856 | 0.003076923076923077 | 1300 |
+| A9 | R21 | Gravity versus mission-context tension | 81 | 972 | 0.08333333333333333 | 0.06230769230769231 | 1300 |
+| A9 | R22 | Timed interval boundaries missing | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R23 | Accuracy verification conditions missing | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R24 | Duration consistency questioned | 2 | 972 | 0.00205761316872428 | 0.0015384615384615385 | 1300 |
+| A9 | R25 | Absolute prohibition unverifiable | 0 | 972 | 0.0 | 0.0 | 1300 |
+| A9 | R26 | Implied power constraint | 1 | 972 | 0.00102880658436214 | 0.0007692307692307692 | 1300 |
+| A9 | R27 | Assumed component existence | 13 | 972 | 0.013374485596707819 | 0.01 | 1300 |
+| A9 | R28 | Claimed environment-value mismatch | 14 | 972 | 0.01440329218106996 | 0.010769230769230769 | 1300 |
+| A10 | R01 | Missing stated provenance | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R02 | Prescribed design solution | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R03 | Abstraction or system boundary | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R04 | Notes mixed into requirement | 89 | 902 | 0.09866962305986696 | 0.06846153846153846 | 1300 |
+| A10 | R05 | Multiple obligations | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R06 | Indirect capability phrasing | 700 | 902 | 0.7760532150776053 | 0.5384615384615384 | 1300 |
+| A10 | R07 | Negative obligation wording | 200 | 902 | 0.22172949002217296 | 0.15384615384615385 | 1300 |
+| A10 | R08 | Bound wording criticized | 457 | 902 | 0.5066518847006651 | 0.3515384615384615 | 1300 |
+| A10 | R09 | Dependence on another requirement | 4 | 902 | 0.004434589800443459 | 0.003076923076923077 | 1300 |
+| A10 | R10 | Endpoint versus path accuracy | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R11 | Unit or numerical equivalence | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R12 | Environmental bounds undefined | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R13 | Particulate limit or measurement unspecified | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R14 | Leakage or containment undefined | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R15 | Trajectory or motion scope unspecified | 7 | 902 | 0.007760532150776054 | 0.005384615384615384 | 1300 |
+| A10 | R16 | Payload or interface details omitted | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R17 | Initiating condition omitted | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R18 | Coordinates or reference frame omitted | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R19 | Energy-budget scope unclear | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R20 | Gravity orientation or test context unclear | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R21 | Gravity versus mission-context tension | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R22 | Timed interval boundaries missing | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R23 | Accuracy verification conditions missing | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R24 | Duration consistency questioned | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R25 | Absolute prohibition unverifiable | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R26 | Implied power constraint | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R27 | Assumed component existence | 0 | 902 | 0.0 | 0.0 | 1300 |
+| A10 | R28 | Claimed environment-value mismatch | 0 | 902 | 0.0 | 0.0 | 1300 |

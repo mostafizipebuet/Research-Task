@@ -1,0 +1,12 @@
+| Measure | Value |
+| --- | --- |
+| Runs | 100 |
+| Requirements | 13 |
+| Criteria | 7 |
+| Possible requirement–criterion checks | 9100 |
+| Flag explanations | 3229 |
+| Not-flagged checks | 5871 |
+| Unique explanation strings | 2566 |
+| Observed requirement–criterion pairs | 54 |
+| Labels human-reviewed | 0 |
+| Explanations with no matched reason | 8 |

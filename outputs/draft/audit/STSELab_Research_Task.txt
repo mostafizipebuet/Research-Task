@@ -1,0 +1,99 @@
+PAGE 1
+ 
+ 
+STSELab Research Task for Mostafizur Rahman Khan – Understanding LLM Explanations for 
+Requirement Quality Violations 
+Due: Monday, 2nd of November, 2026, 8:00 AM EST 
+Background 
+In an externally funded research project, we are studying how well large language models (LLMs) can 
+evaluate the quality of engineering requirements. We provided an LLM with a representative Requirement 
+Set and asked it to evaluate each requirement against the seven quality criteria listed in Table 1. These 
+criteria can be traced back to INCOSE’s Systems Engineering Handbook. The ID shown for each criterion 
+is the identifier the LLM uses in its output. 
+Table 1. Quality Evaluation Criteria for Individual Requirements 
+Criterion (ID) Definition 
+Necessary (A2) The requirement statement defines capability, characteristic, constraint, or quality factor 
+needed or required to satisfy a lifecycle concept, need, source, or higher -level requirement.  
+Appropriate (A3) 
+The specific intent and amount of detail of the need or requirement statement is appropriate 
+to the level (the level of abstraction, organization, or system architecture) of the entity to 
+which it refers.  
+Unambiguous (A4) Need and requirement statements must be stated such that their intent is clear and can be 
+interpreted in only one way by all intended audiences.  
+Complete (A5) 
+The need statement sufficiently describes the necessary capability, characteristic, constraint, 
+conditions, or quality factor to meet the lifecycle concept or source from which it was 
+transformed. The requirement statement sufficiently describes the necess ary capability, 
+characteristic, constraint, conditions, or quality factor to meet the need, source, or higher -
+level requirement from which it was transformed.  
+Singular (A6) The need or requirement statement should state a single capability, characteristic, constraint, 
+or quality factor. 
+Correct (A9) 
+The need statement must be an accurate representation of the lifecycle concept or source 
+from which it was transformed. The requirement statement must be an accurate 
+representation of the need, source, or higher -level requirement from which it was 
+transformed.  
+Conforming (A10) 
+Statements and expressions of individual needs and requirements should conform to an 
+approved standard pattern and style guide or standard for writing and managing needs and 
+requirements.  
+ 
+
+
+PAGE 2
+ 
+We ran this evaluation 100 times, independently, on the same requirement set, using the same LLM with 
+identical settings. Each run produced its own set of flags, and each flag comes with the LLM’s written 
+explanation of why it considers that criterion violated. 
+Data 
+The output of all 100 runs is provided in the Excel workbook raw_data.xlsx, which accompanies this 
+document. It is organized as follows: 
+• Worksheets. The workbook contains 100 worksheets, one per run, named Execution999 through 
+Execution1099. 
+• Cell contents. Each worksheet has a single column with the header “Raw Data” in cell A1. Cell A2 
+contains that run’s complete output as one JSON object. 
+• JSON structure. The JSON object has one key per requirement ID. There are 13 requirements: FR.1–
+FR.2, PR.1–PR.7, ER.1–ER.3, and RR.1. Each key maps to a list of the criteria the LLM flagged as 
+violated for that requirement. Each entry in the list has three fields: “criterion” (the criterion ID, e.g., 
+A4), “name” (the criterion name, e.g., Unambiguous), and “explanation” (the LLM’s written 
+explanation of why it considers that criterion violated). 
+• Unflagged criteria. If a criterion does not appear in a requirement’s list, the LLM did not flag that 
+criterion for that requirement in that run. 
+ 
+An abbreviated example of the contents of one cell: 
+{"PR.1": [{"criterion": "A4", "name": "Unambiguous", "explanation": "It is unclear 
+whether the ±2.5 mm accuracy applies only to the final destination position or to 
+the entire travel path..."}, {...}], "PR.2": [...], ...} 
+Objective 
+The objective of this task is to understand the reasons behind the LLM’s requirement quality violation 
+flags. You will analyze the LLM’s explanations to identify what reasons it gives, how consistent those 
+reasons are, and how well they match the intent of each criterion. Please note that LLMs make mistakes, so 
+a flagged violation should not automatically be treated as a confirmed requirement defect. 
+ 
+In this document, an explanation is the text the LLM wrote for a single flag, and a reason (or rule) is a 
+category you derive from a group of explanations that share the same underlying logic. 
+ 
+We are specifically interested in a better understanding of the following questions: 
+1. What distinct reasons (or underlying rules) does the LLM give for flagging violations under each 
+quality criterion? 
+2. How consistently do these reasons appear across requirements and across repeated runs (worksheets), 
+and where and how do they vary? 
+3. Are the LLM’s explanations aligned with what each quality criterion is meant to capture, or does the 
+LLM stretch, merge, or misapply criteria? 
+4. Do similar reasons appear under different criteria, and what does this suggest about how the LLM 
+distinguishes those criteria? 
+
+PAGE 3
+ 
+These questions are a starting point, not a checklist. If the data points to something more important, follow 
+it and tell us. 
+Deliverables 
+1. A detailed report and a presentation, both covering: 
+• Research design: how you got from the raw data to your results, and why you chose this design. 
+• Set of reasons: the reasons (or rules) behind the LLM’s violation flags. Each reason should be 
+clearly defined, distinct from the others, and backed by evidence from the data. 
+• Findings: what these reasons tell us about how the LLM evaluates requirement quality, including 
+its strengths, weaknesses, consistency, and any surprises. 
+• Limitations and open questions: what your analysis cannot tell us, and what you would 
+investigate next. 
+2. All data, code, and working files you produced, so we can trace your conclusions back to raw_data.xlsx. 
